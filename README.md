@@ -1,5 +1,7 @@
 # Blog-Mentalidad-Crecimiento
+
 Documentación del Proyecto: Normalización y Modelado de Datos (SQL)
+
 # Contexto
 El presente proyecto se centra en el diseño, optimización y migración de un conjunto de datos transaccionales hacia un entorno de base de datos relacional en SQL. Para garantizar la eficiencia en las consultas y facilitar la escalabilidad del sistema, se optó por implementar un modelo en estrella (Star Schema). Este enfoque estructurado permite separar los datos de hechos de las dimensiones analíticas, optimizando el rendimiento de los joins y preparando los datos para su posterior explotación en herramientas de Business Intelligence.
 
@@ -46,6 +48,5 @@ Durante la revisión técnica por pares (peer review), recibí una crítica dire
 Aceptar este feedback de manera abierta y sin sesgos defensivos me permitió dar un paso atrás, admitir el error en el planteamiento inicial y reestructurar la arquitectura hacia la solución de la tabla puente. Esta experiencia reforzó mi convicción de que la transparencia radical y la crítica técnica estricta son los mejores catalizadores para asegurar la calidad de un código y el crecimiento profesional como analista de datos.
 
 # Conclusión
-
 
 El proceso de normalización y modelado demostró que los esquemas teóricos, como el modelo en estrella, a menudo requieren soluciones adaptativas ante la complejidad de los datos reales. La implementación estratégica de una tabla puente resolvió eficazmente la falta de conectividad directa entre la tabla principal y la dimensión aislada, preservando la integridad referencial y evitando la duplicidad de registros. En última instancia, el éxito del proyecto radicó en combinar un control de versiones riguroso con la apertura para recibir feedback crítico, logrando una arquitectura de base de datos en SQL óptima, escalable y lista para el análisis de negocio.
